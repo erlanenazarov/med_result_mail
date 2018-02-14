@@ -15,11 +15,10 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-from django.urls import path
 from Main.views import *
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    url(r'^admin/', admin.site.urls),
     url(r'^download/$', download_file, name='download'),
     url(r'^email/send/$', send_to_mail, name='send_email')
 ]

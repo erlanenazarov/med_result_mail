@@ -1,4 +1,4 @@
-#!/Users/erlan/Programming/Python/Django/SMTP_Project/.env/bin/python3.5
+#!/Users/erlan/Programming/Python/Django/SMTP_Project/.env/bin/python
 
 # -*- coding: utf-8 -*-
 import re
