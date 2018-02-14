@@ -1,0 +1,5 @@
+.idea
+error.log
+access.log
+logs.log
+start.sh
